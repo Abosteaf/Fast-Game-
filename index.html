@@ -728,6 +728,9 @@
             height: 60px;
             margin: 0 auto 1rem;
             object-fit: contain;
+            border-radius: 50%;
+    object-fit: cover;
+    background: transparent;
         }
 
         /* ===== RESPONSIVE ===== */
@@ -862,6 +865,23 @@
                 font-size: 1.8rem;
             }
         }
+
+.logo-img {
+    width: 80px;            /* حدد الحجم المناسب للوجو */
+    height: 80px;
+    border-radius: 50%;     /* يقص الحواف المربعة البيضاء ويجعلها دائرية */
+    object-fit: fill;
+    background: transparent;
+}
+
+.hero-logo {
+    width: 500px;            /* حدد الحجم المناسب للوجو */
+    height: 250px;
+    object-fit: fill;
+    background: fixed;
+}
+
+
     </style>
 </head>
 <body>
@@ -869,7 +889,7 @@
     <header>
         <div class="header-content">
             <div class="logo-section">
-                <img src="bg.jpeg" alt="FAST GAME" class="logo-img">
+                <img src="logo.png" alt="FAST GAME" class="logo-img">
                 <div class="logo-text">FAST GAME</div>
             </div>
             <nav>
@@ -889,7 +909,7 @@
     <!-- ===== HERO SECTION ===== -->
     <section class="hero" id="home">
         <div class="hero-content">
-            <img src="اللوجو.jpg" alt="FAST GAME Logo" class="hero-logo">
+            <img src="bg.jpeg" alt="FAST GAME Logo" class="hero-logo">
             <h1>FAST GAME</h1>
             <p class="hero-tagline">مع FAST GAME... اللعب إله طعم ثاني! 🎮🔥</p>
             <p class="hero-description">
@@ -952,7 +972,7 @@
             <!-- SECTION 1: HALL -->
             <div class="section-item">
                 <div>
-                    <img src="الصالة.jpeg" alt="الصالة">
+                    <img src="الصالة1.png" alt="الصالة">
                 </div>
                 <div class="section-text">
                     <h2>الصالة | أجواء المنافسة والحماس</h2>
@@ -969,14 +989,14 @@
             <!-- SECTION 2: PRIVATE ROOMS -->
             <div class="section-item reverse">
                 <div class="section-text">
-                    <h2>غرم البرايفت | خصوصيتك إلها مكان</h2>
+                    <h2>غرف البرايفت | خصوصيتك إلها مكان</h2>
                     <p>
                         إذا كنت بتفضل تلعب براحتك وبعيداً عن الأجواء المزدحمة، غرم البرايفت بتوفرلك مساحة خاصة تستمتع فيها باللعب مع أصحابك بأجواء مريحة ومميزة.
                     </p>
                     <div class="tagline">إلك جوّك الخاص... وإلك متعة اللعب! 🎮</div>
                 </div>
                 <div>
-                    <img src="index.html" alt="غرم البرايفت">
+                    <img src="private.png" alt="غرم البرايفت">
                 </div>
             </div>
 
@@ -1091,7 +1111,7 @@
     <footer>
         <div class="footer-content">
             <div class="footer-section">
-                <img src="/mnt/user-data/uploads/FAST_GAME.jpeg" alt="FAST GAME" class="footer-logo">
+                <img src="logo.png" alt="FAST GAME" class="footer-logo">
                 <h3>FAST GAME</h3>
                 <p class="footer-tagline">FAST GAME... معانا اللعب غير! 🎮🔥</p>
             </div>
