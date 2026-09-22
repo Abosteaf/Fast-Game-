@@ -210,7 +210,14 @@
             font-weight: 700;
             text-shadow: 0 0 20px rgba(255, 215, 0, 0.4);
         }
-
+.hero-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    background: transparent;
+    mix-blend-mode: multiply; /* هاد السطر هو اللي بيلغي اللون الأبيض */
+}
         .hero-description {
             font-size: clamp(0.9rem, 2.5vw, 1.1rem);
             color: var(--light-text);
@@ -921,7 +928,7 @@
     <!-- ===== HERO SECTION ===== -->
     <section class="hero" id="home">
         <div class="hero-content">
-            <img src="bg.jpeg" alt="FAST GAME Logo" class="hero-logo">
+            <img src="logo.png" alt="FAST GAME Logo" class="hero-logo">
             <h1>FAST GAME</h1>
             <p class="hero-tagline">مع FAST GAME... اللعب إله طعم ثاني! 🎮🔥</p>
             <p class="hero-description">
